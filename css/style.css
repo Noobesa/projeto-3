@@ -1,0 +1,728 @@
+
+
+*{margin:0;
+  padding:0;
+  font-family:'Oswald', sans-serif;
+  box-sizing:border-box;}
+
+
+
+
+html,body{height:100%;}
+
+.container{width:100%;
+           max-width:1280px;
+           margin:0 auto;}
+
+
+.clear{clear:both;}
+
+
+/*header do site*/
+
+header{padding:20px 2% 35px 2%;
+       height:130px;}
+
+
+header .logo{float:left;}
+             
+
+
+
+header nav.desktop{float:right;
+                   position:relative;
+                   top:40px;}
+
+header nav.desktop ul{list-style-type:none}
+
+header nav.desktop ul li{float:left;
+	                       font-style:italic;
+				                 font-size:28px;
+				                 padding:0 30px;}
+
+header nav.desktop a{color:black;
+                     text-decoration:none;}
+
+header nav.mobile{display:none;
+                  width:32px;
+                  height:32px;
+                  float:right;
+                  cursor:pointer;
+                  margin-top:40px;
+                  background-size:100% 100%;
+                  background-image:url('../imagens/icon_menu.png');
+                  background-repeat:no-repeat;}
+
+header nav.mobile ul{display:none;
+	                 text-align:center;
+	                 background-color:white;
+	                 border-radius:10px;
+	                 position:absolute;
+	                 left:0;
+	                 top:95px;
+	                 width:98%;
+	                 margin:25px 8px;
+	                 z-index:999;}  
+                
+header nav.mobile ul li{font-size:20px;
+                        font-style:italic;
+                        padding:5px 0;}
+
+header nav.mobile ul li:hover{background-color:#ededed;
+                              border-radius:10px;}                        
+
+header nav.mobile a{color:black;
+                    text-decoration:none;}                        
+/*header do site*/
+
+/*banner do site*/
+
+section.banner{width:100%;
+               height:650px;
+               overflow:hidden;
+               background-color:black;
+               background-image:url('../imagens/bg.jpg');
+               background-repeat:no-repeat;
+               background-position:right bottom;
+               background-size:contain;}
+
+
+
+.text-banner{padding:70px;}
+
+
+
+
+.text-banner-single{width:312px;
+                    height:70px;
+                    font-style:italic;
+                    background-image:url('../imagens/box-text.png');
+                    background-size:100% 100%;
+                    background-repeat:no-repeat;
+                    margin-top:30px;
+                    padding-left:50px;
+                    color:white;
+                    font-size:23px;
+                    text-transform:uppercase;
+                    line-height:70px;}
+
+ .text-banner .text-banner-single:nth-of-type(2){
+
+ 	     width:240px;
+ 	     height:70px;
+ 	     line-height:70px;
+ 	     position:relative;
+ 	     left:-10px;
+ }
+
+ .text-banner .text-banner-single:nth-of-type(3){
+
+ 	     width:200px;
+ 	     height:70px;
+ 	     line-height:70px;
+ 	     position:relative;
+ 	     left:-20px;
+ }
+
+
+ .text-banner .text-banner-single:nth-of-type(4){
+
+ 		width:382px;
+ 		height:50px;
+ 		position:relative;
+ 		left:-30px;         
+        background-image:url('../imagens/box-white-text.png');            
+        color:black;
+        font-size:21px;
+        text-transform:uppercase;
+        line-height:50px;} 
+                                       
+/*banner do site*/
+
+/*sessão de vendas do site*/
+
+section.veiculos-destaque{padding:90px 2%;}
+						  
+                          
+
+.line-titulo{max-width:1280px;
+             text-align:center;
+             position:relative;
+             margin:0 auto;}
+
+.ln1{width:100%;
+     height:2px;
+     background-color:black;
+     position:absolute;
+     top:30px;}
+
+
+.line-titulo h2{position:relative;
+                background-color:white;
+                width:30%;
+                font-style:italic;
+                text-transform:uppercase;
+                font-size:30px;
+                text-align:center;
+                padding:0 20px;
+                display:inline-block;}
+
+.vitrine-destaque{float:left;
+                  width:33.3%;}
+
+.vitrine-destaque .car-img{
+
+	width:100%;
+	padding-top:70%;
+  margin-top:20px;
+	border:8px solid white;
+	background-size:100% 100%;}
+
+
+.text-car > h1{font-size:25px;
+	             padding-left:8px;
+	             text-align:left;
+			         font-style:italic;}
+               
+
+.text-car > p{font-size:16px;
+	            padding-left:8px;
+	            text-align:left;
+			        font-style:italic;}
+              
+
+.text-car > a{margin-top:10px;
+              margin-left:8px;}
+              
+             
+/*sessão de vendas do site*/
+
+/*sessão de depoimentos e seviços do site*/
+
+.depoimentos-servicos{display:flex;
+					  width:100%;}
+
+.half1{width:50%;
+       text-align:right;
+       padding:90px 0;
+       background-color:#242424;
+       color:white;}
+
+.half1-wraper{text-align:left;
+              display:inline-block;
+              padding-right:30%;}
+
+.half1-wraper h2{font-weight:normal;
+                 font-size:32px;
+                 font-style:italic;}
+
+.half1-wraper ul{display:inline-block;
+	             margin-top:10px;
+                 text-align:left;}
+
+.half1-wraper li{list-style:none;
+	             font-size:20px;
+                 margin-top:5px;}
+
+.half1-wraper a{margin-left:40px;
+	            display:inline-block;
+	            vertical-align:bottom;}
+
+
+.btn1{text-decoration:none;
+	    color:white;
+	    text-align:center;
+	    display:block;
+	    width:150px;
+	    cursor:pointer;
+	    font-style:italic;
+	    font-size:16px;
+	    line-height:40px;
+	    background-color:#EB2D2D;}
+
+
+.half2{width:50%;
+       padding:90px 100px;
+       background-color:#EB2D2D;
+       color:white;}
+
+.half2 h2{font-weight:normal;
+          font-size:32px;
+          padding:0 50px;
+          font-style:italic;}
+
+.half2 .depoimento-single{margin-top:15px;}
+
+.half2 p{font-size:20px;}
+
+
+.navigation{float:left;
+            width:100%;
+            margin-top:30px;
+            max-width:700px;}
+
+.arrows{float:left;}
+
+.navigation img{margin:0 15px;
+                cursor:pointer;}            
+                                                       
+.nome-depoimento{float:right;
+	               font-style:italic;
+                 font-size:23px;
+                 color:#252525;}
+
+/*sessão de depoimentos e seviços do site*/
+
+/*sessão de contato do site*/                 
+
+section.contato{padding:90px 2%;}
+ 
+.w100{width:100%;}
+
+.w50{width:50%;}
+
+section.contato form{max-width:600px;
+                     margin:50px auto;}
+
+section.contato .input-wraper{float:left;
+                      		  padding:10px;
+                      		  margin-top:7px;}
+
+section.contato input[type="text"]{
+
+	width:100%;
+	height:40px;
+	outline:0;
+	line-height:40px;
+	border:1px solid #ccc;
+	padding-left:10px;
+	font-style:italic;} 
+
+section.contato textarea{
+
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	outline:0;
+	border:1px solid #ccc;
+	padding-left:10px;
+	font-style:italic;}
+
+
+.btn2{text-decoration:none;
+	  color:white;
+	  width:150px;
+	  border:0;
+	  outline:0;
+	  cursor:pointer;
+	  font-style:italic;
+	  font-size:16px;
+	  line-height:40px;
+	  background-color:#EB2D2D;}
+
+section.contato form .input-wraper:nth-of-type(5){text-align: center;}
+	
+section.contato input[type=submit]{cursor: pointer;
+                                   display: inline-block;}
+
+/*sessão de contato do site*/
+
+/*footer do site*/
+
+footer{padding:40px 2%;
+       background-color:#1c1b18;}
+
+footer nav.ft{float:left;}
+
+footer nav.ft ul{list-style-type:none;}
+
+footer ul li{float:left;
+             font-style:italic;
+             padding:0 35px;
+             font-size:20px;}
+
+footer nav.ft a{text-decoration:none;
+                color:white;}             
+
+footer p{float:right;
+         color:white;
+         font-size:20px;
+         font-style:italic;}
+/*footer do site*/
+
+/*section venda pagina 2° do site*/
+
+section.venda2{min-height:100%;}
+
+section.venda2{padding:90px 2%;}
+						  
+.sidebar{float:left;
+         width:30%;}
+
+
+.content-venda{margin-top:40px;}
+
+.search1 h1{font-weight:normal;
+            font-size:29px;
+            color:black;}
+
+.search1{width:90%;}
+
+.search1 .barra-preco{width:100%;
+					            height:20px;
+					            background-color:white;
+					            border:1px solid #ccc;
+					            margin-top:8px;
+					            border-radius:20px;
+					            position:relative;}   
+
+
+.barra-preco-fill{position:absolute;
+                  top:0;
+                  left:0;
+                  width:1px;
+                  height:20px;
+                  border-radius:20px;
+              	  background:linear-gradient(to bottom,rgb(255,255,255),rgb(200,200,200));}
+
+.pointer-barra{width:26px;
+			         height:26px;
+			         position:absolute;
+			         left:0;
+			         top:-3px;
+               border-radius:8px;
+               cursor:pointer;
+               border:1px solid #777;
+               background:linear-gradient(to bottom,rgb(255,255,255),rgb(180,180,180));}
+
+.vitrine-venda .text-car h1{font-size:22px;}                             	  
+
+
+ .valor-pesquisa p:nth-of-type(1){float:left;
+                                  margin-top:6px;}
+
+ .valor-pesquisa p:nth-of-type(2){float:right;
+                                  margin-top:6px;}
+
+
+ .search2{margin-top:40px;}
+ 
+ .search2 h1{font-weight:normal;
+             font-size:29px;
+             color:black;}
+
+ .form-venda-wraper{margin-top:10px;}
+
+ .form-venda-wraper input[type="checkbox"]{display:none;}
+
+ .form-venda-wraper label{width:20px;
+ 						              height:20px;
+ 						              border:1px solid #ccc;
+ 						              display:inline-block;
+ 						              border-radius:3px;
+ 						              vertical-align:top;
+                          position:relative;
+ 						              cursor:pointer;}
+
+
+.form-venda-wraper input[type="checkbox"]:checked + label > .circle{display:block;} 
+
+.circle{width:8px;
+        height:8px;
+        border-radius:4px;
+        background-color:#f21000;
+        position:absolute;
+        display:none;
+        left:6px;
+        top:6px;}
+
+
+.form-venda-wraper span{padding:0 10px;
+                        vertical-align:top;
+                        display:inline-block;}
+
+
+.vitrine-venda{width:70%;
+               float:left;}
+
+.vitrine-venda > .vitrine-destaque{margin-top:20px;}                                                                                           
+
+/*section venda pagina 2° do site*/
+
+/*section venda pagina 3° do site*/
+
+section.venda-single{
+  padding:80px 2% 0 2%;
+}
+
+section.venda-single .container{
+  padding:40px 0 0 0;
+  text-align: center;
+  max-width: 1280px;
+}
+
+.info-veiculo{
+  display: inline-block;
+  margin-top:30px;
+  width: 60%;
+}
+
+.foto-destaque{
+  width: 100%;
+  padding-top:70%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.descricao-veiculo{
+  vertical-align: top;
+  display: inline-block;
+  padding:60px 20px;
+  text-align: left;
+}
+
+.descricao-veiculo p{
+  font-size: 17px;
+  margin-top:25px;
+  max-width: 200px;
+}
+
+.descricao-veiculo a{
+  margin-top:25px;
+}
+
+.nav-galeria-parent{
+  width: 100%;
+  padding:36px;
+  position: relative;
+}
+
+.arrow-left-nav{
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  cursor: pointer;
+  transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  background-image:url('../imagens/arrow-left.png');
+  background-size: 100% 100%;
+  width: 22px;
+  height: 22px;
+}
+
+
+
+.arrow-right-nav{
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  cursor: pointer;
+  transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  background-image:url('../imagens/arrow-right.png');
+  background-size: 100% 100%;
+  width: 22px;
+  height: 22px;
+}
+
+.info-bread{
+  padding:20px 0;
+  text-align: left;
+}
+
+.info-bread a{
+  text-decoration: none;
+  color: black;
+}
+
+.info-bread a:last-child{
+  color: red;
+}
+
+.info-bread span{
+  padding:0 30px;
+}
+
+.nav-galeria{
+  overflow: hidden;
+  width: 100%;
+}
+
+.nav-galeria-wraper{
+  /*Via js => width*/
+}
+
+.mini-img-wraper{
+  float: left;
+  padding:9px;
+  /*Via js => width*/
+}
+
+.mini-img{
+  width: 100%;
+  cursor: pointer;
+  padding-top:70%;
+  background-position: center;
+  background-size: cover;
+  background-color:green;
+}
+                                                                                                                               
+
+/*section venda pagina 3° do site*/
+
+/*section sobre pagina 4° do site*/
+
+section.sobre{min-height:90%;
+              padding:40px 2%;}
+
+section.sobre .container{max-width:840px;
+                         margin-top:30px;}
+
+section.sobre .img-destaque-sobre{width: 100%;
+                                  padding-top:60%;
+                                  background-size:contain;
+                                  background-repeat:no-repeat;
+                                  background-image:url("../imagens/Dodge 64.jpg");}
+                                         
+  
+section.sobre .descricao-author1{margin-top:25px;}
+
+.descricao-author1 h2{font-size:30px;}
+
+.descricao-author1 p{margin-top:10px;
+                     font-size:17px;
+                     line-height:25px;}
+
+.descricao-author2{margin-top:25px;}
+
+.img-small{width:30%;
+           padding-top:30%;
+           float:left;
+           background-image:url('../imagens/Muscle car.jpg');
+           background-size:contain;
+           background-repeat:no-repeat;}
+
+.descricao-author2 p{padding:20px;
+                     float:left;
+                     width:70%;
+                     line-height:25px;}                                
+
+ 
+
+/*section sobre pagina 4° do site*/
+
+/*responsivo do site*/
+
+@media screen and (max-width:1024px){           
+
+  .info-veiculo{width:100%;}
+
+  .descricao-veiculo{padding:20px 0;
+                     text-align: center;}
+ 
+  .descricao-veiculo a{display: inline-block;}
+    
+  .descricao-veiculo p{max-width: none;}
+    
+  section.venda-single h2{width:60%;}                   
+
+  section.veiculos-destaque h2{width:60%;}
+
+  .sidebar{width:100%;
+           text-align:center;}
+
+  .search1{display:inline-block;}
+
+  .search2{text-align:left;
+           display:inline-block;}         
+  
+  .vitrine-venda{text-align:center;
+                 width:100%;}         
+
+
+
+    section.banner{height:80vh;
+		               background-size:cover;
+		               background-position:center;
+		               max-height:500px;}
+
+		.text-banner{padding:40px;}
+
+
+		.vitrine-destaque .car-img{
+
+				width:100%;
+				float:none;
+				display:inline-block;
+				padding-top:70%;}
+		
+
+		.veiculos-destaque .container{max-width:1280px;
+		                              padding:40px 0;
+		                              text-align:center;}			 
+
+		.vitrine-destaque{width:80%;
+		                  float:none;
+		                  margin-top:20px;
+		                  display:inline-block;}
+
+
+		section.depoimentos-servicos{flex-direction:column;}
+
+		.half1{width:100%;
+		       text-align:center;}
+
+		.half2{width:100%;}
+
+		.half1-wraper{padding:0;}}		
+
+@media screen and (max-width:1366px){
+
+	.half1-wraper a{display:block;
+	                margin-left:0;
+	                margin-top:15px;}
+}
+
+
+@media screen and (max-width:768px){
+	
+  .img-small{width:100%;
+             padding-top:60%;}
+
+  .descricao-author2 p{width:100%;
+                       padding:20px 0;}
+
+  section.sobre h2{width:60%;}                   
+
+
+	.search1 h1{font-size:26px;}
+
+	.search2 h1{font-size:26px;}
+
+	nav.ft{display:none;}
+
+	footer{text-align:center;}
+
+	footer p{float:none;}
+
+	.w50{width:100%;}	
+
+	header nav.desktop{display:none;}
+
+	header nav.mobile{display:block;}
+
+	
+
+
+}
+
+
+	
+
+
+
+
+
+/*responsivo do site*/
